@@ -1,0 +1,19 @@
+{
+  "ckpt_path": "./model/resnet18_10cls_20251115.pth",
+  "img_size": 256,
+  "normalize": {
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "num_features": 512,
+  "num_samples": 1347,
+  "device_used": "cuda"
+}
