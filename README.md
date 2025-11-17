@@ -45,11 +45,11 @@ MLRaman
 └── app_xgb_streamlit.py: user-friendly Streamlit application for real-time prediction.
 ```
 # How to run
-Step 1: Download the GNNOpt package:
+Step 1: Download the MLRaman package:
 
     git clone https://github.com/nguyen-group/GNNOpt.git
 
-Step 2: Go to the source code in the GNNOpt directory to run the program:
+Step 2: Go to the source code in the Raman directory to run the program:
 
     cd MLRaman
     jupyter-lab MLRaman.ipynb
@@ -58,7 +58,7 @@ Step 3: For Streamlit application:
 
     streamlit run app_xgb_streamlit.py
 
-Note: app_xgb_streamlit.py will load resnet18_10cls_20251115.pth and xgb_on_cnn.pkl, which are stored in model and output directories, respectively.
+Note: `app_xgb_streamlit.py` will load `resnet18_10cls_20251115.pth` and `xgb_on_cnn.pkl`, which are stored in the model and output directories, respectively.
 
 # References and citing
 The detailed MLRaman is described in our pre-print:
